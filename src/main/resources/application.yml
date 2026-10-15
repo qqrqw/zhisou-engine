@@ -23,7 +23,8 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/my_db
     username: root
-    password: 123456
+    # 安全备注：下方为无效示例值，仅供占位；部署前必须替换，真实凭据不得提交到 Git。
+    password: "FAKE_EXAMPLE_PASSWORD_REPLACE_ME"
   # Redis 配置
   # todo 需替换配置，然后取消注释
 #  redis:
@@ -31,13 +32,15 @@ spring:
 #    host: localhost
 #    port: 6379
 #    timeout: 5000
-#    password: 123456
+# 安全备注：下方为无效示例值，仅供占位；部署前必须替换，真实凭据不得提交到 Git。
+#    password: "FAKE_EXAMPLE_PASSWORD_REPLACE_ME"
   # Elasticsearch 配置
   # todo 需替换配置，然后取消注释
   elasticsearch:
     uris: http://localhost:9200
     username: root
-    password: 123456
+    # 安全备注：下方为无效示例值，仅供占位；部署前必须替换，真实凭据不得提交到 Git。
+    password: "FAKE_EXAMPLE_PASSWORD_REPLACE_ME"
   # 文件上传
   servlet:
     multipart:
@@ -69,10 +72,14 @@ wx:
   # 微信公众平台
   # todo 需替换配置
   mp:
-    token: xxx
-    aesKey: xxx
-    appId: xxx
-    secret: xxx
+    # 安全备注：下方为无效示例值，仅供占位；部署前必须替换，真实凭据不得提交到 Git。
+    token: "FAKE_EXAMPLE_TOKEN_REPLACE_ME"
+    # 安全备注：下方为无效示例值，仅供占位；部署前必须替换，真实凭据不得提交到 Git。
+    aesKey: "FAKE_EXAMPLE_AESKEY_REPLACE_ME"
+    # 安全备注：下方为无效示例值，仅供占位；部署前必须替换，真实凭据不得提交到 Git。
+    appId: "wx0000000000000000"
+    # 安全备注：下方为无效示例值，仅供占位；部署前必须替换，真实凭据不得提交到 Git。
+    secret: "FAKE_EXAMPLE_SECRET_REPLACE_ME"
     config-storage:
       http-client-type: HttpClient
       key-prefix: wx
@@ -83,13 +90,17 @@ wx:
   # 微信开放平台
   # todo 需替换配置
   open:
-    appId: xxx
-    appSecret: xxx
+    # 安全备注：下方为无效示例值，仅供占位；部署前必须替换，真实凭据不得提交到 Git。
+    appId: "wx0000000000000000"
+    # 安全备注：下方为无效示例值，仅供占位；部署前必须替换，真实凭据不得提交到 Git。
+    appSecret: "FAKE_EXAMPLE_APPSECRET_REPLACE_ME"
 # 对象存储
 # todo 需替换配置
 cos:
   client:
-    accessKey: xxx
-    secretKey: xxx
+    # 安全备注：下方为无效示例值，仅供占位；部署前必须替换，真实凭据不得提交到 Git。
+    accessKey: "FAKE_EXAMPLE_ACCESSKEY_REPLACE_ME"
+    # 安全备注：下方为无效示例值，仅供占位；部署前必须替换，真实凭据不得提交到 Git。
+    secretKey: "FAKE_EXAMPLE_SECRETKEY_REPLACE_ME"
     region: xxx
     bucket: xxx

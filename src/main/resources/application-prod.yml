@@ -10,7 +10,8 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/my_db
     username: root
-    password: 123456
+    # 安全备注：下方为无效示例值，仅供占位；部署前必须替换，真实凭据不得提交到 Git。
+    password: "FAKE_EXAMPLE_PASSWORD_REPLACE_ME"
   # Redis 配置
   # todo 需替换配置
   redis:
@@ -18,13 +19,15 @@ spring:
     host: localhost
     port: 6379
     timeout: 5000
-    password: 123456
+    # 安全备注：下方为无效示例值，仅供占位；部署前必须替换，真实凭据不得提交到 Git。
+    password: "FAKE_EXAMPLE_PASSWORD_REPLACE_ME"
   # Elasticsearch 配置
   # todo 需替换配置
   elasticsearch:
     uris: http://localhost:9200
     username: root
-    password: 123456
+    # 安全备注：下方为无效示例值，仅供占位；部署前必须替换，真实凭据不得提交到 Git。
+    password: "FAKE_EXAMPLE_PASSWORD_REPLACE_ME"
 mybatis-plus:
   configuration:
     # 生产环境关闭日志
